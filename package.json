@@ -1,0 +1,29 @@
+{
+  "name": "movie-service",
+  "version": "0.0.1",
+  "description": "P2P movie service",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "node dist"
+  },
+  "keywords": [
+    "video",
+    "stream"
+  ],
+  "author": "Alexandr Derevkov",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "typescript": "^5.0.3",
+    "webtorrent": "^2.0.16"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1"
+  }
+}
